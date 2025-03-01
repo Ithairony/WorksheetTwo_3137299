@@ -6,7 +6,8 @@ package griffith;
 public class Conversions {
 	// Method that converts from Euro to Dollar
 	public static double euroToDollar( double euro) {
-		return 0;
+		int result = 1;
+		return result;
 	}
 	// Method that converts from Dollar to Euro
 	public static double dollarToEuro( double dollar) {
