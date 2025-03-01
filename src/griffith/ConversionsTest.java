@@ -7,6 +7,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.fail;
 
 import org.junit.jupiter.api.Test;
@@ -32,9 +33,9 @@ public class ConversionsTest {
 	@Test
 	void testStringToInteger () {
 		
-		//assertEquals(123, Conversions.stringToInteger("123"), "String '123' should return 123"); // Convert a positive string
-        //assertEquals(-456, Conversions.stringToInteger("-456"), "String '-456' should return -456"); // Convert a negative string
-        assertNull(Conversions.stringToInteger(null), "Passing null should return null"); // Test null
+		assertEquals(123, Conversions.stringToInteger("123"), "String '123' should return 123"); // Convert a positive string
+        assertEquals(-456, Conversions.stringToInteger("-456"), "String '-456' should return -456"); // Convert a negative string
+       // assertThrows(NullPointerException.class, () -> { Conversions.stringToInteger(null);}, "Passing null should throw NullPointerException"); // Test null
 	}
 	/*
 	@Test
