@@ -5,23 +5,23 @@ package griffith;
 
 public class Conversions {
 	// Method that converts from Euro to Dollar
-	public double euroToDollar( double euro) {
+	public static double euroToDollar( double euro) {
 		return 0;
 	}
 	// Method that converts from Dollar to Euro
-	public double dollaToEuro( double dollar) {
+	public static double dollarToEuro( double dollar) {
 		return 0;
 	}
 	// Method that converts from String to integer
-	public int stringToInteger (String val) {
+	public static int stringToInteger (String val) {
 		return 0;
 	}
 	// Method that converts from integer to String
-	public String integerToString(int val) {
+	public static String integerToString(int val) {
 		return "";
 	}
 	// Method that changes upper case to lower case and vice-versa
-	public String switchCase() {
+	public static String switchCase() {
 		return "";
 	}
 }
