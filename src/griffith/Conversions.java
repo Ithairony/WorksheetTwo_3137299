@@ -7,12 +7,13 @@ public class Conversions {
 	
 	// Method that converts from Euro to Dollar
 	public static double euroToDollar( double euro) {
-		double conversionRate = 0.96;
+		double conversionRate = 1.04;
 		return euro * conversionRate;
 	}
 	// Method that converts from Dollar to Euro
 	public static double dollarToEuro( double dollar) {
-		return 1;
+		double conversionRate = 0.96;
+		return dollar * conversionRate;
 	}
 	// Method that converts from String to integer
 	public static int stringToInteger (String val) {
