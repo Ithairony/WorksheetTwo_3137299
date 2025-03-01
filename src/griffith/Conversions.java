@@ -4,10 +4,11 @@
 package griffith;
 
 public class Conversions {
+	
 	// Method that converts from Euro to Dollar
 	public static double euroToDollar( double euro) {
-		int result = 1;
-		return result;
+		double conversionRate = 0.96;
+		return euro * conversionRate;
 	}
 	// Method that converts from Dollar to Euro
 	public static double dollarToEuro( double dollar) {
