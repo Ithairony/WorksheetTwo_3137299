@@ -40,9 +40,9 @@ public class ConversionsTest {
 	
 	@Test
 	void testIntegerToString() {
-        assertEquals(Conversions.stringToInteger("123"), Conversions.integerToString(123), "Integer 123 should be converted to '123'");
-        assertEquals(Conversions.stringToInteger("-456"), Conversions.integerToString(-456), "Integer -456 should be converted to '-456'");
-        assertEquals(Conversions.stringToInteger("0"), Conversions.integerToString(0), "Integer 0 should be converted to '0'");
+        assertEquals("123", Conversions.integerToString(123), "Integer 123 should be converted to '123'");
+        assertEquals("-456", Conversions.integerToString(-456), "Integer -456 should be converted to '-456'");
+        assertEquals("0", Conversions.integerToString(0), "Integer 0 should be converted to '0'");
 	}
 	
 	/*

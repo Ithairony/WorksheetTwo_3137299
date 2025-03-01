@@ -4,7 +4,7 @@
 package griffith;
 
 public class Conversions {
-	
+
 	// Method that converts from Euro to Dollar
 	public static double euroToDollar( double euro) {
 		double conversionRate = 1.04;
@@ -21,7 +21,7 @@ public class Conversions {
 	}
 	// Method that converts from integer to String
 	public static String integerToString (int val) {
-		return "";
+		return Integer.toString(val);
 	}
 	// Method that changes upper case to lower case and vice-versa
 	public static String switchCase() {
