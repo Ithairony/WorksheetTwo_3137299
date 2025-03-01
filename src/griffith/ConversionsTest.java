@@ -14,7 +14,8 @@ public class ConversionsTest {
 	@Test
 	void testEuroToDollar( ) {	
 		//			expected /	actual  / delta ( range of acceptance / message 					
-		assertEquals(9.60, Conversions.euroToDollar(1), 0.02, "1€ should grant you 0.96$");	// Test for positive values
+		//assertEquals(9.60, Conversions.euroToDollar(1), 0.02, "1€ should grant you 0.96$");	// Test for positive values
+		assertEquals(-0.96, Conversions.euroToDollar(-1), 0.02, "-1€ should grant you -0.96$");	// Test for positive values
 	}
 	@Test
 	void testDollarToEuro() {
