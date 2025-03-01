@@ -20,7 +20,7 @@ public class Conversions {
 		return Integer.parseInt(val);
 	}
 	// Method that converts from integer to String
-	public static String integerToString(int val) {
+	public static String integerToString (int val) {
 		return "";
 	}
 	// Method that changes upper case to lower case and vice-versa
