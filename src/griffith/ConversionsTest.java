@@ -33,8 +33,8 @@ public class ConversionsTest {
 	void testStringToInteger () {
 		
         //assertEquals(123, Conversions.stringToInteger("123"), "String '123' should return 123"); // Convert a positive string
-        //assertEquals(-456, Conversions.stringToInteger("-456"), "String '-456' should return -456"); // Convert a negative string
-        assertNull(Conversions.stringToInteger(null), "Passing null should return null"); // Test null
+        assertEquals(-456, Conversions.stringToInteger("-456"), "String '-456' should return -456"); // Convert a negative string
+        //assertNull(Conversions.stringToInteger(null), "Passing null should return null"); // Test null
 	}
 	/*
 	@Test
@@ -47,3 +47,20 @@ public class ConversionsTest {
 	}
 	 */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
