@@ -20,4 +20,8 @@ public class Conversions {
 	public String integerToString(int val) {
 		return "";
 	}
+	// Method that changes upper case to lower case and vice-versa
+	public String switchCase() {
+		return "";
+	}
 }
