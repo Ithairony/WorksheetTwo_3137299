@@ -30,7 +30,7 @@ public class Conversions {
 		}
 		else  {
 			return string.toLowerCase();
-			}
+		}
 	}
 }
 

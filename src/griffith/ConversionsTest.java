@@ -4,16 +4,13 @@
 package griffith;
 
 import static org.junit.jupiter.api.Assertions.*;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.junit.jupiter.api.Assertions.fail;
 import org.junit.jupiter.api.Test;
 
 public class ConversionsTest {
 	// Assuming that 1€ = 0.96$
-	/*
+
 	@Test
 	void testEuroToDollar( ) {	
 		//			expected /	actual  / delta ( range of acceptance / message 					
@@ -34,8 +31,8 @@ public class ConversionsTest {
 	void testStringToInteger () {
 
 		assertEquals(123, Conversions.stringToInteger("123"), "String '123' should return 123"); // Convert a positive string
-        assertEquals(-456, Conversions.stringToInteger("-456"), "String '-456' should return -456"); // Convert a negative string
-        assertThrows(NullPointerException.class, () -> { Conversions.stringToInteger(null);}, "Passing null should throw NullPointerException"); // Test null
+		assertEquals(-456, Conversions.stringToInteger("-456"), "String '-456' should return -456"); // Convert a negative string
+		assertThrows(NullPointerException.class, () -> { Conversions.stringToInteger(null);}, "Passing null should throw NullPointerException"); // Test null
 
 	}
 
@@ -59,17 +56,17 @@ public class ConversionsTest {
 
 
 	}
-	 */
+
 	@Test
 	void testSwitchCase() {
 
 		// Testing for normal String
 		Conversions converter = new Conversions();
-		String conversion = converter.switchCase("HELL");
+		String conversion = converter.switchCase("HELLO");
 		assertEquals("hello".hashCode(),conversion.hashCode(), "HELLO should return hello");
 
 		// Testing for empty String
-		String conversionTwo = converter.switchCase("aaa");
+		String conversionTwo = converter.switchCase("");
 		assertEquals("".hashCode(),conversionTwo.hashCode(), "'' should return ''");
 
 	}
