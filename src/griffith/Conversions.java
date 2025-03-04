@@ -25,7 +25,14 @@ public class Conversions {
 	}
 	// Method that changes upper case to lower case and vice-versa
 	public String switchCase(String string) {
-		return "";
+		if(string == string.toLowerCase() ) {
+			return string.toUpperCase();
+		}
+		else  {
+			return string.toLowerCase();
+			}
+		
+		
 	}
 }
 

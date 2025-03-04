@@ -45,18 +45,18 @@ public class ConversionsTest {
 		
 		// Test for positive values 
 		String expected = "123";
-		int actual = Conversions.integerToString(12).hashCode();
+		int actual = Conversions.integerToString(123).hashCode();
 		assertEquals(expected.hashCode(),actual, " '123' expected but actual was " + actual);
 		
 		// Test for negative values
 		String expectedTwo = "-123";
-		int actualTwo = Conversions.integerToString(-12).hashCode();
-		assertEquals(expectedTwo.hashCode(),actual);
+		int actualTwo = Conversions.integerToString(-123).hashCode();
+		assertEquals(expectedTwo.hashCode(),actualTwo);
 		
 		// Test for 0
 		String expectedThree = "0";
-		int actualThree = Conversions.integerToString(1).hashCode();
-		assertEquals(expected.hashCode(),actual);
+		int actualThree = Conversions.integerToString(0).hashCode();
+		assertEquals(expectedThree.hashCode(),actualThree);
 		
 
 	}
