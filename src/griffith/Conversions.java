@@ -24,7 +24,20 @@ public class Conversions {
 		return Integer.toString(val);
 	}
 	// Method that changes upper case to lower case and vice-versa
-	public static String switchCase() {
+	public String switchCase(String string) {
 		return "";
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
